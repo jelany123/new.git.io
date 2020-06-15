@@ -1,0 +1,54 @@
+body {
+  margin-top: 70px; }
+
+.navbar {
+  box-shadow: 2px 2px 8px #3292a6;
+  background: #fff;
+  opacity: 0.9; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+  .navbar li .nav-item:hover {
+    color: #3292a6; }
+  .navbar .nav-item:last-child {
+    padding-right: 0px; }
+
+#showcase {
+  position: relative;
+  min-height: 700px;
+  background-image: url("../img/LandWater2.png"); }
+  #showcase .primary-overly {
+    background: rgba(50, 146, 156, 0.7);
+    min-height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+
+#subscribe {
+  background-color: #000141; }
+
+#meettheauthors img {
+  margin-top: -50px; }
+
+#meettheauthors .fa {
+  font-size: 25px;
+  color: #3292a6; }
+
+#meettheauthors .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #meettheauthors .card:hover .fa {
+    color: #fff; }
+
+#contect img {
+  margin-top: 120px; }
+
+@media (max-width: 540px) {
+  body {
+    font-size: 36px; } }
+
+@media (max-with: 576px) {
+  #showcase h1 {
+    font-size: 5rem; } }
